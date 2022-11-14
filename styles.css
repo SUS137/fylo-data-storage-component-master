@@ -219,12 +219,25 @@ body{
         background-color: white;
         padding:0.7rem 1.5rem;
         border-radius:10px;
-        margin-top:-6.3rem;
-        position: absolute;
+        margin-top:-6.5rem;
+        position:absolute;
         margin-left: 45%;
       }
   
-      
+      .footer::after{
+        content: "";
+        position: absolute;
+        top: 88%;
+        right:0%;
+        margin-left: -9px;
+        border-width: 30px;
+        border-right-width: 0px;
+        border-style: solid; 
+       
+        border-color:  white transparent transparent transparent;
+        transition: rotate(-1deg);
+    
+      }
       
       
       .second-title{
