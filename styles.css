@@ -179,7 +179,7 @@ body{
 @media(min-width:768px){
 
     .container{
-        
+        position: relative;
         flex-direction: row;
         background-color: var(--Very-Dark-Blue);
         background-image: url(images/bg-desktop.png);
